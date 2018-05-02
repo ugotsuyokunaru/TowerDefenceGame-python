@@ -3,6 +3,7 @@
 import pygame		   # 載入 pygame 模組
 import os
 import sys
+
 #初始參數設定
 grayroad = (100,100,100)	#道路顏色(淺灰)
 blackboard = (40,40,40)	 	#操作面板顏色
@@ -113,31 +114,31 @@ pygame.init()
 font = pygame.font.get_fonts() 				#pygame可用字體列表 
 usefont = pygame.font.SysFont('simhei',25)	#設定使用字體，大小25，可用字體為'simhei'，'yumincho'，68最佳，70，72[標楷體]
 # 載入牙齒、牙刷等圖片
-brush_image_filename = "D:\譚\python\期末報告\\brush修正.png"
-brushesleft_image_filename = "D:\譚\python\期末報告\\brushes left.png"
-brushesright_image_filename = "D:\譚\python\期末報告\\brushes right.png"
-toothpaste_image_filename = "D:\譚\python\期末報告\\牙膏0.png"
-tooth_image_filename = "D:\譚\python\期末報告\\牙齒0拷貝.png"
-teeth_image_filename = "D:\譚\python\期末報告\\teeth.png"
-mouthwash_image_filename = "D:\譚\python\期末報告\\漱口水.png"
-snowball_image_filename = "D:\譚\python\期末報告\\牙膏.png"
-waterball_image_filename = "D:\譚\python\期末報告\\漱口水滴.png"
-sheep_image_filename = "D:\譚\python\期末報告\\sheeptest.png"
-bat_image_filename = "D:\譚\python\期末報告\\bats.png"
-pumpkin_image_filename = "D:\譚\python\期末報告\\testpumpkin.png"
-brush_image2_filename = "D:\譚\python\期末報告\\brush不能放置修正.png"
-toothpaste_image2_filename = "D:\譚\python\期末報告\\牙膏不能放置.png"
-mouthwash_image2_filename = "D:\譚\python\期末報告\\漱口水不能放置.png"
-background_image_filename = "D:\譚\python\期末報告\\background.png"
-start_image_filename = "D:\譚\python\期末報告\\開始畫面更新.png"
-happy_ending_image_filename = "D:\譚\python\期末報告\\he.png"
-bad_ending_image_filename = "D:\譚\python\期末報告\\be.png"
-befont_image_filename = "D:\譚\python\期末報告\\be標題.png"
-hefont_image_filename = "D:\譚\python\期末報告\\he標題.png"
-begin_image_filename = "D:\譚\python\期末報告\\start.png"
-halloween_music_filename = "D:\譚\python\期末報告\\FGO萬聖節.mp3"
-he_music_filename = "D:\譚\python\期末報告\\安眠曲.mp3"
-be_music_filename = "D:\譚\python\期末報告\\電鑽聲.mp3"
+brush_image_filename = "./resources/brush修正.png"
+brushesleft_image_filename = "./resources/brushes left.png"
+brushesright_image_filename = "./resources/brushes right.png"
+toothpaste_image_filename = "./resources/牙膏0.png"
+tooth_image_filename = "./resources/牙齒0拷貝.png"
+teeth_image_filename = "./resources/teeth.png"
+mouthwash_image_filename = "./resources/漱口水.png"
+snowball_image_filename = "./resources/牙膏.png"
+waterball_image_filename = "./resources/漱口水滴.png"
+sheep_image_filename = "./resources/sheeptest.png"
+bat_image_filename = "./resources/bats.png"
+pumpkin_image_filename = "./resources/testpumpkin.png"
+brush_image2_filename = "./resources/brush不能放置修正.png"
+toothpaste_image2_filename = "./resources/牙膏不能放置.png"
+mouthwash_image2_filename = "./resources/漱口水不能放置.png"
+background_image_filename = "./resources/background.png"
+start_image_filename = "./resources/開始畫面更新.png"
+happy_ending_image_filename = "./resources/he.png"
+bad_ending_image_filename = "./resources/be.png"
+befont_image_filename = "./resources/be標題.png"
+hefont_image_filename = "./resources/he標題.png"
+begin_image_filename = "./resources/start.png"
+halloween_music_filename = "./resources/FGO萬聖節.mp3"
+he_music_filename = "./resources/安眠曲.mp3"
+be_music_filename = "./resources/電鑽聲.mp3"
 
 #################################################
 time_passed = 0					# 遊戲經過時間
